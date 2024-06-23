@@ -11,7 +11,7 @@ def main():
     ps = int(input("enter the password:"))
     Amount = float(input("enter the amount to initail depost:"))
 
-
+    # Create a new bank account
     us = BankAccount(name,age,d,phone,addr,Acc,ps,Amount)
     print(us)
     
@@ -22,24 +22,20 @@ def main():
     #print(us)
 
 
-
-    #===================== view your account detail ==============#
-    
+    # Check the account balance
     BankAccount.view_account()
 
-    #+++++++++++++++++++ deposit +++++++++++++++++++++#
-
+    # Deposit money into the account
     BankAccount.deposit()
 
-    #+++++++++++++++++++++ withdraw ++++++++++++++++++#
-
+    # Withdraw money from the account
     BankAccount.withdraw()
 
-    #+++++++++++++++++++++ veiw all +++++++++++++++++++#
+    # viewing all account details
 
     BankAccount.Veiw_all()
 
-    #++++++++++++++ transaction ++++++++++++++++++++++=#
+    #transfer money between two account
 
     BankAccount.transaction()
 

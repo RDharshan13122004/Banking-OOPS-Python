@@ -261,7 +261,7 @@ class BankAccount(user_create):
                 account_present = True
                 if va_pass in row["password"]:
                     password_correct = True
-                    print(f"NAME: {row['name']}\nACC_NO: {va_account}\nbalance :{row["balance"]}")
+                    print(f"NAME: {row['name']}\nACC_NO: {va_account}\nbalance :{row['balance']}")
     
         if not account_present:
             print(f"INVALID ACCOUNT NO:{va_account}")

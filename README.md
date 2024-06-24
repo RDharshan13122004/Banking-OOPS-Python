@@ -74,7 +74,7 @@ The project is structured into two classes to represent the different entities i
 
     BankAccount.view_account()
 
-### 5. Viewing account details
+### 5. Viewing all account details
 
     BankAccount.Veiw_all()
 
